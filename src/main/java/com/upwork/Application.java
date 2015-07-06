@@ -13,9 +13,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @EnableAutoConfiguration
 public class Application {
 
-    @Autowired
-    private static UpWorkBot upWorkBot;
-
     public static void main(String[] args) throws Exception {
         SpringApplication.run(Application.class, args);
     }

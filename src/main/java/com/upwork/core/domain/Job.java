@@ -1,11 +1,12 @@
 package com.upwork.core.domain;
 
+import java.io.Serializable;
 import java.sql.Timestamp;
 
 /**
  * Created by jsarafajr on 02.07.15.
  */
-public class Job {
+public class Job implements Serializable {
     private String link;
     private String name;
     private String desc;
